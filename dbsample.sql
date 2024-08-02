@@ -1,0 +1,10 @@
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+CREATE TABLE gas_sensor (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    value INT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
